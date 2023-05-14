@@ -14,5 +14,6 @@ def main():
     result = session.query(User).get(victim.id)
     assert result is None, "The user was not deleted"
 
+
 if __name__ == '__main__':
     main()
